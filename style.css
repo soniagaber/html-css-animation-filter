@@ -61,6 +61,19 @@ transform: scaleY(120%) scaleX(120%);
 filter: grayscale(100%);
 }
 
+.ex-7-img{
+transition: all 1s linear;
+}
+
+
+.ex-7-img:hover{
+transform:scaleY(200%)
+}
+
+.ex-7-img:active{
+    transform: rotate(120deg)
+    }
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
