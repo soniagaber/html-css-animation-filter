@@ -62,17 +62,14 @@ filter: grayscale(100%);
 }
 
 .ex-7-img{
+    filter: none;
 transition: all 1s linear;
 }
 
 
 .ex-7-img:hover{
-transform:scaleY(200%)
+filter: brightness(150%) blur(5px);
 }
-
-.ex-7-img:active{
-    transform: rotate(120deg)
-    }
 
 .ex-8-img:hover{
     transform:scaleY(10%) rotate(120deg);
