@@ -71,10 +71,14 @@ transition: all 1s linear;
 filter: brightness(150%) blur(5px);
 }
 
-.ex-8-img:hover{
-    transform:scaleY(10%) rotate(120deg);
-    border-radius: 20%;
+.ex-8-img{
+filter: none;
     }
+
+    .ex-8-img:hover{
+        filter: brightness(150%) blur(5px);
+        border-radius: 20%;
+        }
 
 .ex-9-img {
     margin: 50px 100px;
