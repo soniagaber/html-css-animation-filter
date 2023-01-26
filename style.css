@@ -74,6 +74,11 @@ transform:scaleY(200%)
     transform: rotate(120deg)
     }
 
+.ex-8-img:hover{
+    transform:scaleY(10%) rotate(120deg);
+    border-radius: 20%;
+    }
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
