@@ -83,6 +83,13 @@ filter: none;
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    filter: none;
+}
+.ex-9-img:hover {
+    transform: scaleX(20%);
+    filter: brightness(150%) blur(5px);
+        border-radius: 20%;
+        
 }
 .ex-10-icon {
     font-size: 60px;
