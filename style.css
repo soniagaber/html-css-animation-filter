@@ -47,6 +47,13 @@ opacity: 0;
     height: 60px;
     background: red;
 }
+.ex-5-square:hover{
+transform: scaleY(120%) scaleX(120%);
+}
+.ex-5-square:active{
+    transform: scaleY(80%) scaleX(80%);
+    }
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
