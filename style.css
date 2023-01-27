@@ -76,8 +76,8 @@ filter: none;
     }
 
     .ex-8-img:hover{
-        filter: brightness(150%) blur(5px);
-        border-radius: 20%;
+        filter: grayscale(0.5) sepia(0.5);
+        border-radius: 20px;
         }
 
 .ex-9-img {
@@ -91,12 +91,35 @@ filter: none;
         border-radius: 20%;
         
 }
+
+@keyframes gira{
+    from{
+        transform: rotate(0deg);}
+    to{ transform: rotate(-360deg);}
+}
 .ex-10-icon {
     font-size: 60px;
+    animation: gira 1s linear infinite;
+}
+
+@keyframes giraetorna{
+    0%{
+        transform: rotate(0deg);
+    }
+    90%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
 }
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation: giraetorna 2s linear;}
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
